@@ -714,5 +714,20 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "easyr1-114k-hard-qwen7b-easy-gta1-4MP-nores-jedi-fix-synced-aug-jitter": {
+    "hf_hub_url": "mlfoundations-cua-dev/easyr1-114k-hard-qwen7b-easy-gta1-4MP-nores-jedi-fix-synced-aug-jitter",
+    "formatting": "sharegpt",
+    "columns": {
+        "messages": "messages",
+        "images": "images"
+    },
+    "tags": {
+        "role_tag": "role",
+        "content_tag": "content",
+        "user_tag": "user",
+        "assistant_tag": "assistant",
+        "system_tag": "system"
+    }
   }
 }
