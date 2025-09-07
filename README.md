@@ -498,7 +498,7 @@ huggingface-cli login
 ```bash
 git clone --depth 1 https://github.com/anas-awadalla/LLaMA-Factory
 cd LLaMA-Factory
-pip install -e ".[torch,metrics,wandb]" --no-build-isolation
+pip install -e ".[torch,metrics,wandb,deepspeed]" --no-build-isolation
 ```
 
 Extra dependencies available: torch, torch-npu, metrics, deepspeed, liger-kernel, bitsandbytes, hqq, eetq, gptq, aqlm, vllm, sglang, galore, apollo, badam, adam-mini, qwen, minicpm_v, openmind, swanlab, dev
