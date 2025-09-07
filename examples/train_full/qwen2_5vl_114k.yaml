@@ -28,9 +28,6 @@ include_effective_tokens_per_second: true
 overwrite_output_dir: false
 save_only_model: false
 report_to: wandb  # choices: [none, wandb, tensorboard, swanlab, mlflow]
-wandb_project: cua_agent
-wandb_name: qwen2_5vl_7b_easyr1_114k_hard_qwen7b_easy_gta1_4MP_no_resolution_in_prompt_lr_1_0e-06_bs_1_epochs_1.0_max_pixels_4000000_deepspeed
-wandb_entity: dogml
 
 ### train
 per_device_train_batch_size: 1

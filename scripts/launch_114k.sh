@@ -1,3 +1,2 @@
 wandb login 9a5bdf0ae42ecf4ac7a1fbca73c6d2cd1a141aaf
-cd LLaMA-Factory
 llamafactory-cli train examples/train_full/qwen2_5vl_114k.yaml
